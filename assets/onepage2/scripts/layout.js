@@ -11,15 +11,6 @@ var Layout = function () {
         ) ? true : false);
     }
 
-    // handle on page scroll
-    var handleHeaderOnScroll = function() {
-        if ($(window).scrollTop() > 60) {
-            $("body").addClass("page-on-scroll");
-        } else {
-            $("body").removeClass("page-on-scroll");
-        }
-    }
-
     var handleHeaderFixed = function () {
         //jQuery to collapse the navbar on scroll
         $(window).scroll(function() {
