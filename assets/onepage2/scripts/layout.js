@@ -134,9 +134,6 @@ var Layout = function () {
             // handle go to top button
             handleGo2Top();
 
-            // initial setup for fixed header
-            handleHeaderOnScroll();
-
             // animated navbar toggle
             handleHeaderFixed();
 
@@ -151,7 +148,6 @@ var Layout = function () {
 
             // handle minimized header on page scroll
             $(window).scroll(function() {
-                handleHeaderOnScroll();
                 handleHeaderFixed();
                 handleParallax();
                 handleOWL();
