@@ -1682,7 +1682,7 @@ a:focus {
     height: 100%;
     min-height: 580px; }
   .carousel .carousel-item-one {
-    background: url(../../../assets/onepage2/img/bg/bg_slider1.jpg);
+    background: url(../../../assets/onepage2/img/bg/bg_slider_ysg_tournament.jpg);
     background-size: cover;
     background-position: center center; }
   .carousel .carousel-item-two {
@@ -1704,13 +1704,13 @@ a:focus {
   .carousel .carousel-subtitle-v2 {
     color: #a8c6d6; }
   .carousel .carousel-subtitle-v3 {
-    color: #a8c6d6; }
+    color: #fff; }
   .carousel .carousel-position-one {
     top: 25%; }
   .carousel .carousel-position-two {
-    top: 45%; }
+    top: 59%; }
   .carousel .carousel-position-three {
-    top: 62%; }
+    top: 75%; }
   .carousel .carousel-caption .animate-delay {
     animation-delay: 1s; }
 

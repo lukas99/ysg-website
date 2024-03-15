@@ -53,7 +53,7 @@
 
     /* Carousel Item Background Images */
     .carousel-item-one {
-        background: url(../../../assets/onepage2/img/bg/bg_slider1.jpg);
+        background: url(../../../assets/onepage2/img/bg/bg_slider_ysg_tournament.jpg);
         background-size: cover;
         background-position: center center;
     }
@@ -107,11 +107,11 @@
     }
     .carousel-position-two {
         @extend %carousel-position-left;
-        top: 45%;
+        top: 59%;
     }
     .carousel-position-three {
         @extend %carousel-position-left;
-        top: 62%;
+        top: 75%;
     }
 
     /* Carousel Animation Delay */
