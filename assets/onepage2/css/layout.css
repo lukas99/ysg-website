@@ -1147,10 +1147,12 @@ a:focus {
 ----------------------------------------------------*/
 .sponsors {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center }
   .sponsors .sponsor-logo {
-    height: 45px }
+    height: 70px;
+    padding: 10px; }
 /*--------------------------------------------------
 	[SUBSCRIBE]
 ----------------------------------------------------*/
