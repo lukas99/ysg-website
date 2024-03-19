@@ -1212,14 +1212,19 @@ a:focus {
 	[SERVICES]
 ----------------------------------------------------*/
 .service-bg {
-  padding-top: 130px;
+  padding-top: 100px;
   padding-bottom: 80px; }
+  .service-bg .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .service-bg .services {
-    margin: 0 auto;
+    margin: 10px;
     text-align: center; }
     .service-bg .services h2 {
-      font-size: 23px;
-      margin: 0 0 10px;
+      font-size: 20px;
+      margin: 0 0 20px;
       line-height: 1.4;
       text-transform: capitalize;
       color: #3f5263; }
@@ -1232,7 +1237,7 @@ a:focus {
       display: table;
       text-align: center;
       position: relative;
-      margin: 0 auto 70px;
+      margin: 0 auto 15px;
       vertical-align: middle; }
       .service-bg .services .services-wrap:before {
         top: -40px;
@@ -1240,11 +1245,8 @@ a:focus {
         right: -40px;
         bottom: -40px;
         content: " ";
-        border-radius: 50%;
-        position: absolute;
-        border: 1px solid #e8ecf1; }
+        position: absolute;}
       .service-bg .services .services-wrap img {
-        width: 80px;
         height: 80px;
         margin: 0 auto;
         text-align: center; }
