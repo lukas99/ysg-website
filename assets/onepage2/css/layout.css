@@ -1215,47 +1215,65 @@ a:focus {
 ----------------------------------------------------*/
 .service-bg {
   padding-top: 100px;
-  padding-bottom: 80px; }
-  .service-bg .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .service-bg .services {
-    margin: 10px;
-    text-align: center; }
-    .service-bg .services h2 {
-      font-size: 20px;
-      margin: 0 0 20px;
-      line-height: 1.4;
-      text-transform: capitalize;
-      color: #3f5263; }
-    .service-bg .services p {
-      font-size: 16px;
-      color: #8693a7; }
-    .service-bg .services .services-wrap {
-      width: 100px;
-      height: 100px;
-      display: table;
-      text-align: center;
-      position: relative;
-      margin: 0 auto 15px;
-      vertical-align: middle; }
-      .service-bg .services .services-wrap:before {
-        top: -40px;
-        left: -40px;
-        right: -40px;
-        bottom: -40px;
-        content: " ";
-        position: absolute;}
-      .service-bg .services .services-wrap img {
-        height: 80px;
-        margin: 0 auto;
-        text-align: center; }
-    .service-bg .services .service-body {
-      height: 100%;
-      display: table-cell;
-      vertical-align: middle; }
+  padding-bottom: 40px; }
+.service-bg .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service-bg .services {
+  margin: 10px;
+  text-align: center; }
+.service-bg .services h2 {
+  font-size: 20px;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  text-transform: capitalize;
+  color: #3f5263; }
+.service-bg .services p {
+  font-size: 16px;
+  color: #8693a7; }
+.service-bg .services .services-wrap {
+  width: 100px;
+  height: 100px;
+  display: table;
+  text-align: center;
+  position: relative;
+  margin: 0 auto 15px;
+  vertical-align: middle; }
+.service-bg .services .services-wrap:before {
+  top: -40px;
+  left: -40px;
+  right: -40px;
+  bottom: -40px;
+  content: " ";
+  position: absolute;}
+.service-bg .services .services-wrap img {
+  height: 80px;
+  margin: 0 auto;
+  text-align: center; }
+.service-bg .services .service-body {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle; }
+
+/*--------------------------------------------------
+[PROGRAM]
+----------------------------------------------------*/
+.program-bg {
+  padding: 100px 0 40px 0;
+  background: #f7fafd; }
+.program-bg .date-heading {
+  text-align: center;
+  border-top: none; }
+.program-bg .table {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto; }
+.program-bg .table>tbody>tr>td {
+  padding: 10px; }
+.program-bg .event-highlight {
+  background: #ccf6ff; }
 
 /*--------------------------------------------------
 	[FEATURES]
@@ -1263,27 +1281,27 @@ a:focus {
 .features-bg {
   padding: 100px 0 40px 0;
   background: #f7fafd; }
-  .features-bg .features {
-    overflow: hidden; }
-    .features-bg .features img {
-      width: 220px;
-      height: auto;
-      float: left;
-      margin-right: 15px;
-      margin-top: 20px; }
-    .features-bg .features .features-in {
-      overflow: hidden; }
-      .features-bg .features .features-in h3 {
-        font-size: 23px;
-        font-weight: 500;
-        text-transform: capitalize; }
-        .features-bg .features .features-in h3 a {
-          color: #3f5263; }
-        .features-bg .features .features-in h3 a:hover {
-          color: #bf5757;
-          text-decoration: none; }
-      .features-bg .features .features-in p {
-        color: #8693a7; }
+.features-bg .features {
+  overflow: hidden; }
+.features-bg .features img {
+  width: 220px;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+  margin-top: 20px; }
+.features-bg .features .features-in {
+  overflow: hidden; }
+.features-bg .features .features-in h3 {
+  font-size: 23px;
+  font-weight: 500;
+  text-transform: capitalize; }
+.features-bg .features .features-in h3 a {
+  color: #3f5263; }
+.features-bg .features .features-in h3 a:hover {
+  color: #bf5757;
+  text-decoration: none; }
+.features-bg .features .features-in p {
+  color: #8693a7; }
 
 @media (max-width: 480px) {
   .features-bg .features img {
