@@ -1276,6 +1276,45 @@ a:focus {
   background: #ccf6ff; }
 
 /*--------------------------------------------------
+[SKILLS]
+----------------------------------------------------*/
+.skills-bg {
+  padding: 100px 0 40px 0; }
+.skills-bg .skills-downloads {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  a {
+    margin: 0 5px 20px 5px;
+    img {
+      padding-bottom: 3px;
+    }
+  }
+  /* use smaller space between links when links are wrapped */
+  .first-link {
+    margin-bottom: 10px; }
+}
+.skills-bg .skills-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+.skills-bg .skills-image img {
+  width: 390px;
+  margin-bottom: 20px; }
+/* images */
+@media (max-width: 1000px) {
+  .skills-bg .skills-image img {
+    width: 320px; }
+}
+@media (max-width: 690px) {
+  .skills-bg .skills-image img {
+    width: 230px; }
+}
+@media (max-width: 515px) {
+  .skills-bg .skills-image img {
+    width: 100%; }
+}
+/*--------------------------------------------------
 	[FEATURES]
 ----------------------------------------------------*/
 .features-bg {
