@@ -1507,11 +1507,7 @@ a:focus {
   .footer-copyright h3 {
     font-size: 30px;
     margin: 0 0 40px;
-    text-transform: uppercase;
     color: #fff; }
-  .footer-copyright p {
-    margin-bottom: 0;
-    color: #8693a7; }
   .footer-copyright .copyright-socials {
     padding: 0;
     margin-bottom: 40px;
