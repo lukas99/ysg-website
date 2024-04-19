@@ -1294,26 +1294,6 @@ a:focus {
   .first-link {
     margin-bottom: 10px; }
 }
-.skills-bg .skills-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-.skills-bg .skills-image img {
-  width: 390px;
-  margin-bottom: 20px; }
-/* images */
-@media (max-width: 1000px) {
-  .skills-bg .skills-image img {
-    width: 320px; }
-}
-@media (max-width: 690px) {
-  .skills-bg .skills-image img {
-    width: 230px; }
-}
-@media (max-width: 515px) {
-  .skills-bg .skills-image img {
-    width: 100%; }
-}
 /*--------------------------------------------------
 	[FEATURES]
 ----------------------------------------------------*/

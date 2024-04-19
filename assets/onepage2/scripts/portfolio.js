@@ -5,11 +5,36 @@
         filtersContainer = $('#filters-container'),
         wrap, filtersCallback;
 
+    var gridContainerSkills = $('#grid-container-skills');
+
 
     /*********************************
         init cubeportfolio
      *********************************/
     gridContainer.cubeportfolio({
+        layoutMode: 'grid',
+        rewindNav: true,
+        scrollByPage: false,
+        defaultFilter: '*',
+        animationType: 'scaleSides',
+        gapHorizontal: 20,
+        gapVertical: 20,
+        gridAdjustment: 'responsive',
+        mediaQueries: [{
+            width: 800,
+            cols: 4
+        }, {
+            width: 600,
+            cols: 2
+        }, {
+            width: 320,
+            cols: 1
+        }],
+        caption: 'zoom',
+        displayType: 'lazyLoading',
+        displayTypeSpeed: 100
+    });
+    gridContainerSkills.cubeportfolio({
         layoutMode: 'grid',
         rewindNav: true,
         scrollByPage: false,
