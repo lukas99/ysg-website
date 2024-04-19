@@ -32,6 +32,15 @@ var Layout = function () {
                 }, 1500, 'easeInOutExpo');
                 event.preventDefault();
             });
+
+            // needed to add scrolling from links in top slider content
+            $('.slider-scroll').on('click', function(event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top - padding
+                }, 1500, 'easeInOutExpo');
+                event.preventDefault();
+            });
         });
  
         //Collapse Navbar When It's Clickicked
