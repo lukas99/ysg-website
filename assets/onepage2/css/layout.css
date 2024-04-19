@@ -133,6 +133,7 @@
       background: #fff; }
       .page-header .navbar-fixed-top .navbar-collapse {
         max-height: 100%;
+        margin-bottom: 20px;
         /* Navbar */ }
         .page-header .navbar-fixed-top .navbar-collapse .navbar-nav li {
           padding: 0;
