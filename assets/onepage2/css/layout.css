@@ -1039,13 +1039,13 @@ a:focus {
   z-index: 1;
   position: relative;
   text-align: center;
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   .heading:after {
     left: 50%;
     height: 3px;
     width: 50px;
     content: " ";
-    bottom: -50px;
+    bottom: -40px;
     margin-left: -25px;
     position: absolute;
     background: #bf5757; }
@@ -1065,7 +1065,7 @@ a:focus {
   z-index: 1;
   position: relative;
   text-align: center;
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   .heading-light:after {
     left: 50%;
     height: 3px;
@@ -1091,7 +1091,7 @@ a:focus {
   z-index: 1;
   position: relative;
   text-align: center;
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   .heading-blue:after {
     left: 50%;
     height: 3px;
@@ -1214,8 +1214,8 @@ a:focus {
 	[SERVICES]
 ----------------------------------------------------*/
 .service-bg {
-  padding-top: 100px;
-  padding-bottom: 40px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
 .service-bg .row {
   display: flex;
   flex-wrap: wrap;
@@ -1261,7 +1261,7 @@ a:focus {
 [PROGRAM]
 ----------------------------------------------------*/
 .program-bg {
-  padding: 100px 0 40px 0;
+  padding: 80px 0 60px 0;
   background: #f7fafd; }
 .program-bg .date-heading {
   text-align: center;
@@ -1279,7 +1279,7 @@ a:focus {
 [SKILLS]
 ----------------------------------------------------*/
 .skills-bg {
-  padding: 100px 0 40px 0; }
+  padding: 80px 0 100px 0; }
 .skills-bg .skills-downloads {
   display: flex;
   justify-content: center;
@@ -1298,7 +1298,7 @@ a:focus {
 	[FEATURES]
 ----------------------------------------------------*/
 .features-bg {
-  padding: 100px 0 40px 0;
+  padding: 80px 0 0 0;
   background: #f7fafd; }
 .features-bg .features {
   overflow: hidden; }
@@ -1342,7 +1342,7 @@ a:focus {
   z-index: 1;
   height: auto;
   overflow: hidden;
-  padding: 100px 0 100px 0;
+  padding: 80px 0 90px 0;
   background: url(../../../assets/onepage2/img/bg/bg_ok_background.jpg) 50% 0 fixed;
   background-size: cover;
   background-position: center center; }
@@ -1472,7 +1472,8 @@ a:focus {
 .clients {
   /* Clients Quotes */ }
   .clients .clients-bg {
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background: #f7fafd; }
   .clients-bg .sponsor-subheader {
     text-align: center;
@@ -1495,7 +1496,7 @@ a:focus {
 	[PORTFOLIO]
 ----------------------------------------------------*/
 .portfolio {
-  padding: 100px 0 100px 0; }
+  padding: 80px 0 100px 0; }
 
 /*--------------------------------------------------
 	[FOOTER COPYRIGHT]
