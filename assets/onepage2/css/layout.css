@@ -1473,63 +1473,24 @@ a:focus {
   /* Clients Quotes */ }
   .clients .clients-bg {
     padding-top: 100px;
-    background: #3194a4;
-    /* Owl Carousel */ }
-    .clients .clients-bg .owl-carousel {
-      text-align: center; }
-      .clients .clients-bg .owl-carousel .item {
-        cursor: pointer; }
-        .clients .clients-bg .owl-carousel .item img {
-          display: block;
-          text-align: center;
-          width: 140px !important;
-          height: auto;
-          margin: 0 auto 40px;
-          opacity: .35; }
-        .clients .clients-bg .owl-carousel .item:hover img {
-          opacity: 1; }
-      .clients .clients-bg .owl-carousel .active.center .item img {
-        opacity: 1; }
-  .clients .clients-quotes {
+    background: #f7fafd; }
+  .clients-bg .sponsor-subheader {
     text-align: center;
-    position: relative;
-    background: #f7fafd;
-    padding: 40px 0 100px; }
-    .clients .clients-quotes:before {
-      top: -3px;
-      left: 50%;
-      width: 0;
-      height: 0;
-      content: " ";
-      position: absolute;
-      margin-left: -15px;
-      border-style: solid;
-      border-width: 15px 15px 0 15px;
-      border-color: #3194a4 transparent transparent transparent; }
-    .clients .clients-quotes .client-quote {
-      display: none;
-      transition-duration: 300ms;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
-      .clients .clients-quotes .client-quote.active {
-        display: block;
-        transition-duration: 300ms;
-        transition-property: all;
-        transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
-      .clients .clients-quotes .client-quote p {
-        padding: 0 20%;
-        font-size: 19px;
-        margin-bottom: 25px;
-        color: #8693a7; }
-      .clients .clients-quotes .client-quote h4 {
-        color: #5f6f77;
-        font-size: 20px;
-        margin: 0 0 10px; }
-      .clients .clients-quotes .client-quote span {
-        font-size: 14px;
-        text-transform: uppercase;
-        color: #bf5757; }
-
+    border-top: none; }
+  .clients-bg .table {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; }
+  .clients-bg .table>tbody>tr>td {
+    padding: 10px; }
+  .clients-bg .event-highlight {
+    background: #ccf6ff; }
+  .clients-bg .table>tbody>tr>td>img {
+    max-width: 150px;
+    max-height: 75px; }
+  .clients-bg .small-text {
+    font-size: 0.9em;
+}
 /*--------------------------------------------------
 	[PORTFOLIO]
 ----------------------------------------------------*/
