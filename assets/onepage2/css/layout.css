@@ -17,6 +17,11 @@
   position: absolute;
   left: auto; }
 
+/* Carousel links at position three */
+.carousel .carousel-position-three a {
+  margin-right: 10px;
+}
+
 /*--------------------------------------------------
 	[PLACEHOLDER]
 ----------------------------------------------------*/
