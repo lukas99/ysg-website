@@ -143,7 +143,7 @@
           color: #3f5263; }
         .page-header .navbar-fixed-top .navbar-collapse .navbar-nav li.active > a,
         .page-header .navbar-fixed-top .navbar-collapse .navbar-nav li > a:hover {
-          color: #bf5757; }
+          color: #193fad; }
     .page-header img.logo-default {
       display: none; } }
 /* Stylesheet design for above 992px */
@@ -1263,7 +1263,7 @@ a:focus {
 ----------------------------------------------------*/
 .program-bg {
   padding: 80px 0 60px 0;
-  background: #f7fafd; }
+  background: #eaeffd; }
 .program-bg .date-heading {
   text-align: center;
   border-top: none; }
@@ -1274,7 +1274,7 @@ a:focus {
 .program-bg .table>tbody>tr>td {
   padding: 10px; }
 .program-bg .event-highlight {
-  background: #ccf6ff; }
+  background: #cee1fc; }
 
 /*--------------------------------------------------
 [SKILLS]
@@ -1300,7 +1300,7 @@ a:focus {
 ----------------------------------------------------*/
 .features-bg {
   padding: 80px 0 0 0;
-  background: #f7fafd; }
+  background: #eaeffd; }
 .features-bg .features {
   overflow: hidden; }
 .features-bg .features img {
@@ -1451,7 +1451,7 @@ a:focus {
 .team-bg .team-about p {
   color: #8693a7; }
 .team-bg .team-about .email {
-  color: #6ca0ab; }
+  color: #307eb2; }
 
 @media (max-width: 992px) {
   .team-bg .team-about {
@@ -1475,7 +1475,7 @@ a:focus {
   .clients .clients-bg {
     padding-top: 80px;
     padding-bottom: 80px;
-    background: #f7fafd; }
+    background: #eaeffd; }
   .clients-bg .sponsor-subheader {
     text-align: center;
     border-top: none; }
@@ -1486,7 +1486,7 @@ a:focus {
   .clients-bg .table>tbody>tr>td {
     padding: 10px; }
   .clients-bg .event-highlight {
-    background: #ccf6ff; }
+    background: #cee1fc; }
   .clients-bg .table>tbody>tr>td>img {
     max-width: 150px;
     max-height: 75px; }
