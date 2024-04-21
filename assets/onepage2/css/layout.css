@@ -2,7 +2,7 @@
     [SASS PLACEHOLDER]
 ----------------------------------------------------*/
 /* Carousel Title */
-.carousel .carousel-title-v1, .carousel .carousel-title-v2, .carousel .carousel-title-v3 {
+.carousel .carousel-title-v1, .carousel .carousel-title-v1-follow-us, .carousel .carousel-title-v2, .carousel .carousel-title-v3 {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.4; }
@@ -13,13 +13,14 @@
   font-weight: 600; }
 
 /* Carousel Position Left */
-.carousel .carousel-position-one, .carousel .carousel-position-two, .carousel .carousel-position-three {
+.carousel .carousel-position-one, .carousel .carousel-position-two, .carousel .carousel-position-two-follow-us, .carousel .carousel-position-three {
   position: absolute;
   left: auto; }
 
 /* Carousel links at position three */
-.carousel .carousel-position-three a {
+.carousel a {
   margin-right: 10px;
+  margin-bottom: 8px;
 }
 
 /*--------------------------------------------------
@@ -1656,14 +1657,14 @@ a:focus {
     background-size: cover;
     background-position: center center; }
   .carousel .carousel-item-two {
-    background: url(../../../assets/onepage2/img/bg/bg_slider2.jpg);
+    background: url(../../../assets/onepage2/img/bg/bg_slider_instagram.jpg);
     background-size: cover;
     background-position: center center; }
   .carousel .carousel-item-three {
     background: url(../../../assets/onepage2/img/bg/bg_slider3.jpg);
     background-size: cover;
     background-position: center center; }
-  .carousel .carousel-title-v1 {
+  .carousel .carousel-title-v1, .carousel .carousel-title-v1-follow-us {
     color: #fff; }
   .carousel .carousel-title-v2 {
     color: #fff; }
@@ -1679,6 +1680,8 @@ a:focus {
     top: 25%; }
   .carousel .carousel-position-two {
     top: 59%; }
+  .carousel .carousel-position-two-follow-us {
+    top: 44%; }
   .carousel .carousel-position-three {
     top: 75%; }
   .carousel .carousel-caption .animate-delay {
@@ -1689,6 +1692,8 @@ a:focus {
   /* 768px */
   .carousel .carousel-title-v1 {
     font-size: 40px; }
+  .carousel .carousel-title-v1-follow-us {
+    font-size: 55px; }
   .carousel .carousel-title-v2,
   .carousel .carousel-title-v3 {
     font-size: 30px; }
