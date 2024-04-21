@@ -162,8 +162,8 @@
       display: none; }
     .page-header .navbar-nav {
       float: right; }
-      .page-header .navbar-nav li > a {
-        padding: 5px 12px; } }
+    .page-header .navbar-nav li > a {
+      padding: 5px 12px; } }
 /* Stylesheet design on Scroll (Fixed Header) 992px */
 @media (min-width: 992px) {
   /* 992px */
