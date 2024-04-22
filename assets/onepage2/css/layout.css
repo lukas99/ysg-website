@@ -1517,17 +1517,17 @@ a:focus {
     color: #fff; }
   .footer-copyright .copyright-socials {
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     list-style: none; }
     .footer-copyright .copyright-socials li {
       padding: 0 3px;
       display: inline-block; }
       .footer-copyright .copyright-socials li i {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
         padding: 10px;
         color: #4a5a69;
-        font-size: 16px;
+        font-size: 20px;
         text-align: center;
         background: #2b3641;
         display: inline-block; }
