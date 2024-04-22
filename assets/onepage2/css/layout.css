@@ -17,12 +17,6 @@
   position: absolute;
   left: auto; }
 
-/* Carousel links at position three */
-.carousel a {
-  margin-right: 10px;
-  margin-bottom: 8px;
-}
-
 /*--------------------------------------------------
 	[PLACEHOLDER]
 ----------------------------------------------------*/
@@ -1638,7 +1632,19 @@ a:focus {
   /* Carousel Positions */
   /* Carousel Animation Delay */ }
   .carousel .carousel-indicators {
-    bottom: 0; }
+    bottom: 0;
+    /* make indicator circles bigger */
+    li {
+      width: 20px;
+      height: 20px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    .active {
+      width: 22px;
+      margin-bottom: 1px;
+    }
+  }
   .carousel .carousel-caption {
     left: auto;
     right: auto;
@@ -1651,7 +1657,13 @@ a:focus {
   .carousel .item {
     width: 100%;
     height: 100%;
-    min-height: 580px; }
+    min-height: 580px;
+    /* add margin to Carousel link buttons */
+    a {
+      margin-right: 10px;
+      margin-bottom: 8px;
+    }
+  }
   .carousel .carousel-item-one {
     background: url(../../../assets/onepage2/img/bg/bg_slider_ysg_tournament.jpg);
     background-size: cover;
