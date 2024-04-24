@@ -1261,13 +1261,6 @@ a:focus {
   position: relative;
   margin: 0 auto 15px;
   vertical-align: middle; }
-.service-bg .services .services-wrap:before {
-  top: -40px;
-  left: -40px;
-  right: -40px;
-  bottom: -40px;
-  content: " ";
-  position: absolute;}
 .service-bg .services .services-wrap img {
   height: 80px;
   margin: 0 auto;
