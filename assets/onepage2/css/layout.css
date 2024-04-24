@@ -1279,14 +1279,23 @@ a:focus {
 .program-bg .date-heading {
   text-align: center;
   border-top: none; }
-.program-bg .table {
+.program-bg table {
   margin-left: auto;
   margin-right: auto;
   width: auto; }
-.program-bg .table>tbody>tr>td {
+.program-bg table>tbody>tr>td {
   padding: 10px; }
 .program-bg .event-highlight {
   background: #cee1fc; }
+@media (max-width: 380px) {
+  /* to prevent white empty space at the right when width < 380px */
+  .program-bg table>tbody>tr>td {
+    /* decrease right and left padding */
+    padding: 10px 5px 10px 5px;
+    /* add hyphenation to prevent large words which make the table exceed its parent containers */
+    hyphens: auto;
+  }
+}
 
 /*--------------------------------------------------
 [SKILLS]
@@ -1477,19 +1486,28 @@ a:focus {
   .clients-bg .sponsor-subheader {
     text-align: center;
     border-top: none; }
-  .clients-bg .table {
+  .clients-bg table {
     margin-left: auto;
     margin-right: auto;
     width: auto; }
-  .clients-bg .table>tbody>tr>td {
+  .clients-bg table>tbody>tr>td {
     padding: 10px; }
   .clients-bg .event-highlight {
     background: #cee1fc; }
-  .clients-bg .table>tbody>tr>td>img {
-    max-width: 150px;
+  .clients-bg table>tbody>tr>td>img {
+    max-width: 140px;
     max-height: 75px; }
   .clients-bg .small-text {
     font-size: 0.9em;
+}
+@media (max-width: 380px) {
+  /* to prevent white empty space at the right when width < 380px */
+  .clients-bg table>tbody>tr>td {
+    /* decrease right and left padding */
+    padding: 10px 5px 10px 5px;
+    /* add hyphenation to prevent large words which make the table exceed its parent containers */
+    hyphens: auto;
+  }
 }
 /*--------------------------------------------------
 	[PORTFOLIO]
