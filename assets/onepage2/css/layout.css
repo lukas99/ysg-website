@@ -1236,39 +1236,34 @@ a:focus {
 .service-bg {
   padding-top: 80px;
   padding-bottom: 80px; }
+.service-bg .heading {
+  margin-bottom: 100px; }
+.service-bg .teams {
+  display: flex;
+  justify-content: center; }
 .service-bg .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+  margin: 20px 0 0 0;
+  row-gap: 25px;
+  max-width: 800px; /* max. 5 teams per row */ }
 .service-bg .services {
-  margin: 10px;
-  text-align: center; }
-.service-bg .services h2 {
-  font-size: 20px;
-  margin: 0 0 20px;
-  line-height: 1.4;
-  text-transform: capitalize;
-  color: #3f5263; }
-.service-bg .services p {
-  font-size: 16px;
-  color: #8693a7; }
-.service-bg .services .services-wrap {
-  width: 100px;
-  height: 100px;
-  display: table;
-  text-align: center;
-  position: relative;
-  margin: 0 auto 15px;
-  vertical-align: middle; }
-.service-bg .services .services-wrap img {
-  height: 80px;
-  margin: 0 auto;
+  width: 150px;
   text-align: center; }
 .service-bg .services .service-body {
-  height: 100%;
-  display: table-cell;
-  vertical-align: middle; }
+  height: 80px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center; }
+.service-bg .services img {
+  max-height: 80px;
+  max-width: 120px;
+  margin: 0 auto;
+  text-align: center; }
+.service-bg .services h2 {
+  font-size: 16px;
+  color: #3f5263; }
 
 /*--------------------------------------------------
 [PROGRAM]
