@@ -1231,37 +1231,37 @@ a:focus {
 }
 
 /*--------------------------------------------------
-	[SERVICES]
+	[TEAMS]
 ----------------------------------------------------*/
-.service-bg {
+.teams-bg {
   padding-top: 80px;
   padding-bottom: 80px; }
-.service-bg .heading {
+.teams-bg .heading {
   margin-bottom: 100px; }
-.service-bg .teams {
+.teams-bg .teams {
   display: flex;
   justify-content: center; }
-.service-bg .row {
+.teams-bg .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 20px 0 0 0;
   row-gap: 25px;
   max-width: 800px; /* max. 5 teams per row */ }
-.service-bg .services {
+.teams-bg .team {
   width: 150px;
   text-align: center; }
-.service-bg .services .service-body {
+.teams-bg .team .team-imgage-container {
   height: 80px;
   vertical-align: middle;
   display: flex;
   align-items: center; }
-.service-bg .services img {
+.teams-bg .team img {
   max-height: 80px;
   max-width: 120px;
   margin: 0 auto;
   text-align: center; }
-.service-bg .services h2 {
+.teams-bg .team h2 {
   font-size: 16px;
   color: #3f5263; }
 
