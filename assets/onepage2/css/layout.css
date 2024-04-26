@@ -1736,3 +1736,9 @@ a:focus {
   .carousel .carousel-position-three {
     top: 80%; }
 }
+/* Reduce space above section titles for small screens (better after navigating to section) */
+@media (max-width: 700px) {
+  .section-bg {
+    padding-top: 50px !important; }
+}
+
