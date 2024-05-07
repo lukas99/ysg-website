@@ -1144,21 +1144,6 @@ a:focus {
     letter-spacing: 0.5px; }
 
 /*--------------------------------------------------
-	[SPONSORS BAR]
-----------------------------------------------------*/
-.sponsors-bar-bg {
-  padding: 30px 0;
-  background: #2c3a46; }
-.sponsors-bar-bg .sponsors-bar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center }
-.sponsors-bar-bg .sponsors-bar-logo {
-  height: 70px;
-  padding: 10px; }
-
-/*--------------------------------------------------
 	[GENERAL]
 ----------------------------------------------------*/
 .section-buttons {
@@ -1175,6 +1160,21 @@ a:focus {
   .not-last-link {
     margin-bottom: 10px; }
 }
+
+/*--------------------------------------------------
+	[SPONSORS BAR]
+----------------------------------------------------*/
+.sponsors-bar-bg {
+  padding: 30px 0;
+  background: #2c3a46; }
+.sponsors-bar-bg .sponsors-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center }
+.sponsors-bar-bg .sponsors-bar-logo {
+  height: 70px;
+  padding: 10px; }
 
 /*--------------------------------------------------
 	[TEAMS]
