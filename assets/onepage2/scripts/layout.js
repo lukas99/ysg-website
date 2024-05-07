@@ -49,12 +49,6 @@ var Layout = function () {
         });
     }
 
-    var handleParallax = function () {
-        jQuery(document).ready(function() {
-            jQuery('.parallax').parallax("50%", 0.4);
-        })  
-    }
-
     var handleOWL = function () {
         
         var handleActiveSlide = function(type) {            
@@ -146,9 +140,6 @@ var Layout = function () {
             // animated navbar toggle
             handleHeaderFixed();
 
-            // Parallax background
-            handleParallax();
-
             // Owl Carousel
             handleOWL();
 
@@ -158,7 +149,6 @@ var Layout = function () {
             // handle minimized header on page scroll
             $(window).scroll(function() {
                 handleHeaderFixed();
-                handleParallax();
                 handleOWL();
             });
         },
