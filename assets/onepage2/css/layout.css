@@ -1247,44 +1247,43 @@ a:focus {
 /*--------------------------------------------------
 	[FEATURES]
 ----------------------------------------------------*/
-.features-bg {
+.hotels-bg {
   padding: 80px 0 0 0;
   background: #eaeffd; }
-.features-bg .features {
+.hotels-bg .hotel {
   overflow: hidden; }
-.features-bg .features img {
+.hotels-bg .hotel img {
   width: 220px;
   height: auto;
   float: left;
   margin-right: 15px;
   margin-top: 20px; }
-.features-bg .features .features-in {
+.hotels-bg .hotel .hotel-description {
   overflow: hidden; }
-.features-bg .features .features-in h3 {
+.hotels-bg .hotel .hotel-description h3 {
   font-size: 23px;
   font-weight: 500;
   text-transform: capitalize; }
-.features-bg .features .features-in h3 a {
+.hotels-bg .hotel .hotel-description h3 a {
   color: #3f5263; }
-.features-bg .features .features-in h3 a:hover {
+.hotels-bg .hotel .hotel-description h3 a:hover {
   color: #bf5757;
   text-decoration: none; }
-.features-bg .features .features-in p {
+.hotels-bg .hotel .hotel-description p {
   color: #8693a7; }
 
 @media (max-width: 480px) {
-  .features-bg .features img {
+  .hotels-bg .hotel img {
     width: 100%;
     float: none;
     display: block;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 10px;
-  }
-  .features-bg .features {
-    text-align: center;
-  }
+    margin-bottom: 10px; }
+  .hotels-bg .hotel {
+    text-align: center; }
 }
+
 /*--------------------------------------------------
 	[TEAM]
 ----------------------------------------------------*/
